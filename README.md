@@ -30,11 +30,11 @@
 
 1. You need to use list
 
-```python
-str = "mylist"
-list(str)
-# ['m', 'y', 'l', 'i', 's', 't']
-```
+   ```python
+   str = "mylist"
+   list(str)
+   # ['m', 'y', 'l', 'i', 's', 't']
+   ```
 
 ---
 
