@@ -1,6 +1,7 @@
 # Table of Contents
 
 - [Sort a dictionary by value](#sort-dict-by-value)
+- [Split string into char array](#split-string-into-char-array)
 
 ---
 
@@ -25,7 +26,18 @@
 
 ---
 
+## Split string into char array
+
+1. You need to use list
+
+```python
+str = "mylist"
+list(str)
+# ['m', 'y', 'l', 'i', 's', 't']
+```
+
+---
+
 ### Important References Used
 
 - [realpython.com](https://realpython.com/)
--
