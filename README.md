@@ -2,6 +2,7 @@
 
 - [Sort a dictionary by value](#sort-dict-by-value)
 - [Split string into char array](#split-string-into-char-array)
+- [Default argument of get method of dictionary](#default-argument-of-get-method-of-dictionary)
 
 ---
 
@@ -37,6 +38,23 @@
    ```
 
 ---
+
+## Default argument of get method of dictionary
+
+1. get() checks if the given key exists in dict. If it
+   _does exist_, the value for that key is returned. Otherwise, the value of the _default argument_ is returned
+
+   ```python
+   product_for_id = {
+       101: "Orange",
+       202: "Butter",
+   }
+
+   product_for_id.get(101, "Default Value")
+   # 'Orange'
+   product_for_id.get(303, "Default Value")
+   # 'Default Value'
+   ```
 
 ### Important References Used
 
