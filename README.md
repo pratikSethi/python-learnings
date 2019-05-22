@@ -3,6 +3,8 @@
 - [Sort a dictionary by value](#sort-dict-by-value)
 - [Split string into char array](#split-string-into-char-array)
 - [Default argument of get method of dictionary](#default-argument-of-get-method-of-dictionary)
+- [Loop over a list and retrieve both index and value](#loop-over-a-list-and-retrieve-both-index-and-value)
+- [Enumerate with given starting index](#enumerate-with-given-starting-index)
 
 ---
 
@@ -55,6 +57,37 @@
    product_for_id.get(303, "Default Value")
    # 'Default Value'
    ```
+
+---
+
+## Loop over a list and retrieve both index and value
+
+1. Using range of length
+
+   ```python
+   fruits = ['Orange', 'Banana', 'Apple', 'Pineapple']
+   for i in range(len(fruits)):
+       print(i, fruits[i])
+
+   # 0 Orange
+   # 1 Banana
+   # 2 Apple
+   # 3 Pineapple
+   ```
+
+2. Using enumerate
+
+   ```python
+   for idx, fruit in enumerate(fruits):
+       print(idx, fruit)
+
+   # 0 Orange
+   # 1 Banana
+   # 2 Apple
+   # 3 Pineapple
+   ```
+
+---
 
 ### Important References Used
 
