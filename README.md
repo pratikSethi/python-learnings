@@ -89,6 +89,22 @@
 
 ---
 
+## Enumerate with given starting index
+
+1. Use the optional start parameter of the enumerate function. If we do not specify this, it starts counting at 0 by default.
+
+   ```python
+   colors = ["red", "green", "blue"]
+   for color_code, color in enumerate(colors, start=101):
+       print (color_code, color)
+
+   # 101 red
+   # 102 green
+   # 103 blue
+   ```
+
+---
+
 ### Important References Used
 
 - [realpython.com](https://realpython.com/)
