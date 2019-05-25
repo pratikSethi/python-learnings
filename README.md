@@ -5,6 +5,7 @@
 - [Default argument of get method of dictionary](#default-argument-of-get-method-of-dictionary)
 - [Loop over a list and retrieve both index and value](#loop-over-a-list-and-retrieve-both-index-and-value)
 - [Enumerate with given starting index](#enumerate-with-given-starting-index)
+- [Loop-over-multiple-lists-at-the-same-time](#loop-over-multiple-lists-at-the-same-time)
 
 ---
 
@@ -103,6 +104,23 @@
    ```
 
 ---
+
+## Loop over multiple lists at the same time
+
+1. zip function takes multiple lists and returns an iterable that provides a tuple of the corresponding elements of each list as we loop over it
+
+   ```python
+   fruits = ['Orange', 'Banana', 'Apple', 'Pineapple']
+   prices = [1, 1, 2, 4]
+
+   for fruit, price in zip(fruits, prices):
+       print(fruit, price)
+
+   # Orange 1
+   # Banana 1
+   # Apple 2
+   # Pineapple 4
+   ```
 
 ### Important References Used
 
