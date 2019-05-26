@@ -5,7 +5,8 @@
 - [Default argument of get method of dictionary](#default-argument-of-get-method-of-dictionary)
 - [Loop over a list and retrieve both index and value](#loop-over-a-list-and-retrieve-both-index-and-value)
 - [Enumerate with given starting index](#enumerate-with-given-starting-index)
-- [Loop-over-multiple-lists-at-the-same-time](#loop-over-multiple-lists-at-the-same-time)
+- [Loop over multiple lists at the same time](#loop-over-multiple-lists-at-the-same-time)
+- [Any and all](#any-and-all)
 
 ---
 
@@ -121,6 +122,14 @@
    # Apple 2
    # Pineapple 4
    ```
+
+---
+
+## Any and all
+
+1.
+
+---
 
 ### Important References Used
 
