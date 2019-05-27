@@ -7,6 +7,7 @@
 - [Enumerate with given starting index](#enumerate-with-given-starting-index)
 - [Loop over multiple lists at the same time](#loop-over-multiple-lists-at-the-same-time)
 - [Any and all](#any-and-all)
+- [Reverse an iterable without mutating the list](#reverse-an-iterable-without-mutating-the-list)
 
 ---
 
@@ -131,6 +132,22 @@
 
 ---
 
+## Reverse an iterable without mutating the list
+
+1. The reversed function is usually the best way to reverse any iterable in Python. Reversed doesn’t mutate the list (it returns an iterator of the reversed items instead)
+
+   ```python
+   numbers = [7, 4, 3, 1, 2]
+   reversed_numbers = reversed(numbers)
+   print(list(reversed_numbers))
+   # [2, 1, 3, 4, 7]
+   print(numbers)
+   # [7, 4, 3, 1, 2]
+   ```
+
+---
+
 ### Important References Used
 
 - [realpython.com](https://realpython.com/)
+- [treyhunner.com](https://treyhunner.com/)
